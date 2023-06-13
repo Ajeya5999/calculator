@@ -1,0 +1,32 @@
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#calculator {
+    height: 60%;
+    width: 35%;
+    border: solid black 1px;
+    padding: 0;
+    margin: 0;
+}
+
+#calculator td {
+    border: solid black 1px;
+    text-align: center;
+}
+
+.function {
+    background-color: green;
+    color: white;
+}
+
+#calculator-display {
+    height: 63px;
+    text-align: right;
+}
