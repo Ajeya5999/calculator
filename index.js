@@ -47,7 +47,7 @@ solve.addEventListener('click', function() {
     var result = `${eval(expression + num)}` ;
     calcDisplay.innerHTML = result;
     expression = "";
-    num = result;
+    num = "";
 });
 
     //Clear All Function 
