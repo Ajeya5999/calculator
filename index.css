@@ -16,7 +16,7 @@ body {
     margin: 0;
 }
 
-#calculator td {
+td {
     border: solid black 1px;
     text-align: center;
 }
@@ -29,4 +29,5 @@ body {
 #calculator-display {
     height: 63px;
     text-align: right;
+    padding: 0 10%;
 }
